@@ -1,0 +1,49 @@
+.section {
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(../../../image/U.jpg);
+    background-size: 100% 100%;
+    height: 450px;
+    width: 100%;
+
+
+}
+
+p,
+h1,
+h2 {
+    cursor: none;
+    position: relative;
+    top: 150px;
+    left: 4vw;
+}
+
+h2 {
+    cursor: auto;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h1 span {
+
+
+    background-color: aquamarine;
+
+
+}
+
+h2 span {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    font-size: 2.5rem;
+    background-color: rgb(237, 54, 91);
+}
+
+#ss {
+    width: 100%;
+    height: 500px;
+}
