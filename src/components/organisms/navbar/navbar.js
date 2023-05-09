@@ -5,7 +5,7 @@ export function Navbar() {
   return (
     <Fragment>
       <header id="nav">
-        <a className="navlogo" href="#nav">
+        <a className="navlogo" href="#section">
           <img src={logo} alt="logo Loading..." />
         </a>
 

@@ -19,7 +19,7 @@ export function Main() {
 
   return (
     <Fragment>
-      <div id="section" className="section">
+      <div id="section" className="section"  >
         <h2 id="h2">
           Schedule a Pickup <span> <a href="#schedule"> NOW !</a></span>
         </h2>

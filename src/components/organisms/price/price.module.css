@@ -37,13 +37,15 @@
   border-radius: 50%;
 }
 .lbtn {
-  z-index: 999;
+  z-index: 99;
   left: 6px;
   top: 40%;
   font-size: 1.5rem;
+  cursor:pointer;
 }
 .rbtn {
-  z-index: 999;
+  cursor:pointer;
+  z-index: 99;
   right: 6px;
   top: 40%;
   font-size: 1.5rem;

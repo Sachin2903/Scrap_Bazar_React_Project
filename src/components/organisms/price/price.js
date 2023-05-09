@@ -8,23 +8,23 @@ export function Price() {
    function btnprev() {
 
       let width = box.current.clientWidth;
-      box.current.scrollLeft = box.current.scrollLeft + width / 5;
+      box.current.scrollLeft = box.current.scrollLeft + width / 3;
 
    }
    function btnnext() {
       let width = box.current.clientWidth;
-      box.current.scrollLeft = box.current.scrollLeft - width / 5;
+      box.current.scrollLeft = box.current.scrollLeft - width / 3;
 
 
    }
    return (
       <Fragment>
 
-         <div id="PRICES" className={styles.price}>
+         <div id="PRICES" className={styles.price} >
             <h1 className={styles.pricename}>Price</h1>
             <div className={styles.mainslider}>
-               <button onClick={btnprev} className={styles.rbtn}>&gt;</button>
-               <div ref={box} className={styles.slider}>
+               <button data-aos="flip-left" onClick={btnprev} className={styles.rbtn}>&gt;</button>
+               <div  ref={box} className={styles.slider}>
 
                   <div className={styles.s1}>
                      <h5 className={styles.naam}>Newspaper</h5>
@@ -50,7 +50,7 @@ export function Price() {
                   </div>
 
                </div>
-               <button onClick={btnnext} className={styles.lbtn}>&lt;</button>
+               <button data-aos="flip-right" onClick={btnnext} className={styles.lbtn}>&lt;</button>
             </div>
          </div>
 

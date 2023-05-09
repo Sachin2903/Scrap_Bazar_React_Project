@@ -13,16 +13,16 @@ export function Schedule() {
 
   return (
     <Fragment>
-      <div id="schedule" className={styles.senddata}>
+      <div  id="schedule" className={styles.senddata}>
         <h2>Schedule a Pickup NOW !</h2>
-        <div className={styles.databox}>
+        <div data-aos="zoom-in-up" className={styles.databox}>
           <input type="number" placeholder="Enter Your Number" className={styles.number} />
           <input type="text" placeholder="Enter Your Address" className={styles.address} />
           <button onClick={() => {
             setLmess("Will Connect You Soon");
             erase();
           }} className={styles.databtn}>Proceed</button>
-          <h5 className={styles.lamess}>{lmess}</h5>
+          <h5 style={{position:"absolute",bottom:"0px"}} className={styles.lamess}>{lmess}</h5>
         </div>
 
 
