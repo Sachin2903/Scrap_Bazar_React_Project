@@ -1,15 +1,19 @@
 
 header {
   width: 100vw;
-  height: 70px;
+  height: 90px;
+  background-color: azure;
   background-image: linear-gradient(320deg,
       rgb(116, 244, 201) 70%,
       rgba(255, 255, 255, 0) 30%);
+      position:fixed;
+      z-index: 999;
 }
 
 .navlogo img {
   width: 100%;
   height: 100%;
+ 
 }
 
 .navlogo {
@@ -33,7 +37,7 @@ header {
   display: block;
   color: black;
   font-weight: 700;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
 }
 
 .navlist li a::after {

@@ -1,13 +1,10 @@
-import {Main} from "./components/organisms/main/main"
-import './App.css';
-import { Navbar } from './components/organisms/navbar/navbar';
 
+import {Master} from "./components/templates/master.js";
+import './App.css';
 function App() {
   return (
     <div className="App">
-      
-      <Navbar/>
-      <Main/>
+     <Master/>
       
       
     </div>
