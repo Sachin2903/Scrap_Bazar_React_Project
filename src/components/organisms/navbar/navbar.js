@@ -14,13 +14,13 @@ export function Navbar() {
             <a href="#section">HOME</a>
           </li>
           <li>
-            <a href="#section">PRICE</a>
+            <a href="#PRICES">PRICE</a>
           </li>
           <li>
             <a href="#ABOUT">ABOUT</a>
           </li>
           <li>
-            <a href="#section">CONTACT</a>
+            <a href="#detail">CONTACT</a>
           </li>
         </ul>
       </header>

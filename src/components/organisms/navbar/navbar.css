@@ -1,7 +1,8 @@
 
 header {
-  width: 100vw;
-  height: 90px;
+  
+  width: 100%;
+  height: 50px;
   background-color: azure;
   background-image: linear-gradient(320deg,
       rgb(116, 244, 201) 70%,
