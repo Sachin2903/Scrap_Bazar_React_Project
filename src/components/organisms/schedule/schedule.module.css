@@ -1,53 +1,53 @@
-.senddata{
-    background-image: linear-gradient(360deg, rgb(231, 255, 144) 50%, rgba(0, 0, 0, 0) 0%);
+.senddata {
+  background-image: linear-gradient(
+    360deg,
+    rgb(231, 255, 144) 50%,
+    rgba(0, 0, 0, 0) 0%
+  );
 
-    width:100%;
-    height: 700px;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 700px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.databox{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:13px;
-    height: 70%;
-    width: 30%;
-    box-shadow: 10px 6px 2px 2px black;
-    background-color: cornflowerblue;
+.databox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  height: 70%;
+  width: 30%;
+  box-shadow: 10px 6px 2px 2px black;
+  background-color: cornflowerblue;
 }
-.number{
-    width:80%;
-    height: 10%;
-    border: 0;
-    text-align: center;
-
+.number {
+  width: 80%;
+  height: 10%;
+  border: 0;
+  text-align: center;
 }
-.address{
-    
-    width:80%;
-    height: 40%;
-    border: 0;
-    text-align:center;
-
+.address {
+  width: 80%;
+  height: 40%;
+  border: 0;
+  text-align: center;
 }
-.databtn{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 900;
-    width: 50%;
-    height: 10%;
-    border: 0;
-    border-radius: 20%;
-    cursor: pointer;
-    box-shadow: 10px 6px 8px black;
-    background-color: chartreuse;
-
+.databtn {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  width: 50%;
+  height: 10%;
+  border: 0;
+  border-radius: 20%;
+  cursor: pointer;
+  box-shadow: 10px 6px 8px black;
+  background-color: chartreuse;
 }
-.lamess{
-    width: 100%;
-    text-align: center;
+.lamess {
+  width: 100%;
+  text-align: center;
 }

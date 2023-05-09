@@ -1,70 +1,66 @@
 .aboutcomp {
-    width: 100%;
-    height: 700px;
+  width: 100%;
+  height: 700px;
 
-    background-image: linear-gradient(to bottom, rgb(159, 224, 252) 50%, rgba(0, 0, 0, 0) 0%);
-
-
+  background-image: linear-gradient(
+    to bottom,
+    rgb(159, 224, 252) 50%,
+    rgba(0, 0, 0, 0) 0%
+  );
 }
 
 .start {
-    border-bottom: 2px solid black;
-    text-align: center;
-    width: 100%;
-    font-size: 2.5rem;
-    top: 0;
-    font-family: monospace;
-    font-weight: 900;
-
-
+  border-bottom: 2px solid black;
+  text-align: center;
+  width: 100%;
+  font-size: 2.5rem;
+  top: 0;
+  font-family: monospace;
+  font-weight: 900;
 }
 
 .why {
-    height: 70%;
-    width: 90%;
+  height: 70%;
+  width: 90%;
 
-    margin: 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .schedule {
-    padding: 0.5%;
+  padding: 0.5%;
 
-    text-align: center;
-    height: 80%;
-    width: 30%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-image: url("../../../image/why/schedule.jpg");
-
+  text-align: center;
+  height: 80%;
+  width: 30%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../../../image/why/schedule.jpg");
 }
 
 .pick {
-    padding: 0.5%;
-    text-align: center;
-    height: 80%;
-    width: 30%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-image: url("../../../image/why/pick.jpg");
-
+  padding: 0.5%;
+  text-align: center;
+  height: 80%;
+  width: 30%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../../../image/why/pick.jpg");
 }
 
 .payment {
-    padding: 0.5%;
-    text-align: center;
-    height: 80%;
-    width: 30%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-image: url("../../../image/why/payment.jpg");
-
+  padding: 0.5%;
+  text-align: center;
+  height: 80%;
+  width: 30%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../../../image/why/payment.jpg");
 }
-.whytxt:hover{
-    background-color:black;
-    color:white
 
-
+.whytxt:hover {
+  background-color: black;
+  color: white;
 }

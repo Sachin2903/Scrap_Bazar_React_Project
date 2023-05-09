@@ -1,36 +1,37 @@
-.contactbox{
-    background-image: linear-gradient(172deg, rgb(231, 255, 144) 50%, rgba(0, 0, 0, 0) 0%);
+.contactbox {
+  background-image: linear-gradient(
+    172deg,
+    rgb(231, 255, 144) 50%,
+    rgba(0, 0, 0, 0) 0%
+  );
 
-    width:100%;
-    height: 600px;
-    display: flex;
-    justify-content: space-between;
-    align-items:end;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
-.contact,.download,.extra{
-    /* border:5px solid red; */
-    height: 50%;
-    width:30%;
-    text-align: center;
-    cursor:none;
-
-
-
+.contact,
+.download,
+.extra {
+  /* border:5px solid red; */
+  height: 50%;
+  width: 30%;
+  text-align: center;
+  cursor: none;
 }
-.social{
-    margin-top:9%;
-    width:70%;
-    height: 20%;
+.social {
+  margin-top: 9%;
+  width: 70%;
+  height: 20%;
 }
-.playstore{
-    margin-top:10%;
-    width:70%;
-    height: 30%;
-
+.playstore {
+  margin-top: 10%;
+  width: 70%;
+  height: 30%;
 }
-.logo{
-    margin-top:10%;
-    width:70%;
-    height: 30%;
-
+.logo {
+  margin-top: 10%;
+  width: 70%;
+  height: 30%;
 }

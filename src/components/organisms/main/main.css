@@ -5,7 +5,7 @@
   background-image: url(../../../image/why/Un.jpg);
   background-size: 100% 100%;
   height: 640px;
-  width: 100%; 
+  width: 100%;
 }
 
 #p,
@@ -16,16 +16,15 @@
   top: 200px;
   left: 4vw;
 
-  
   width: 50%;
 }
-#h1{
-    font-size: 2rem;
+#h1 {
+  font-size: 2rem;
 }
 
 #h2 {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2rem;
   cursor: auto;
 }
 
@@ -37,18 +36,16 @@
   background-color: aquamarine;
 }
 
-#h2 span a{
+#h2 span a {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
   font-size: 3rem;
-  text-decoration:none;
+  text-decoration: none;
   background-color: rgb(237, 54, 91);
 }
 
-
-.metastr{
- 
-    color: crimson;
-    font-weight: 900;
+.metastr {
+  color: crimson;
+  font-weight: 900;
 }

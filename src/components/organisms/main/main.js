@@ -20,7 +20,7 @@ export function Main() {
   return (
     <Fragment>
       <div id="section" className="section">
-      <h2 id="h2">
+        <h2 id="h2">
           Schedule a Pickup <span> <a href="#schedule"> NOW !</a></span>
         </h2>
         <h1 id="h1">
@@ -30,9 +30,9 @@ export function Main() {
           {metstring}
           <span className="metastr"> |</span>
         </p>
-        
+
       </div>
-      
+
     </Fragment>
   );
 }
