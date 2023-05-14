@@ -1,0 +1,57 @@
+.herodiv{
+    width:100%;
+    height: 100vh;
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.215) 100%,white), url(../../../image/heroimg.jpg);
+    background-size:100% 100% ;
+    background-repeat: no-repeat;
+
+    display: flex;
+    gap:1%;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+
+}
+.city{
+    color: aqua;
+
+}
+.slogon,.animation,.quotes{
+    color:white;
+    text-shadow:2px 2px 1px black;
+    font-weight: bold;
+    font-size: 3vw;
+ 
+}
+.animation{
+    
+    font-size: 4vw;
+
+}
+.quotes{
+    
+    font-size: 1.5vw;
+
+}
+.talk,.learn{
+    background-color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    width:15vw;
+    height:8vh;
+    margin-left:20px;
+    border: 0;
+    font-family: monospace;
+    box-shadow: 0 0 3px black;
+}
+ .learn:hover{
+    box-shadow: 0 0 7px black;
+}
+.talk:hover{
+    box-shadow: 0 0 7px black;
+}
+.learn{
+    background-color: aqua;
+}
+

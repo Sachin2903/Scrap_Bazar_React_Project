@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.secondpart{
+  display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loader {
+  position: fixed;
+  z-index:99999;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(107, 97, 240);
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.loaderbox {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+
+
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.a,
+.b,
+.c,
+.d {
+
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a {
+  transform: rotate(80deg) translate(32%, -15%);
+}
+
+.b {
+  transform: rotate(-10deg) translate(-10%, 32%);
+}
+
+.c {
+  transform: rotate(-10deg) translate(32%, 0%);
+
+}
+
+.d {
+  transform: rotate(80deg);
+
+}
+
+
+.green {
+  background-color: rgb(96, 244, 96);
+  border-radius: 30%;
+  width: 18px;
+  height: 18px;
+
+  animation: scalable 1.7s linear infinite;
+}
+
+.red {
+  background-color: rgb(240, 42, 88);
+  border-radius: 30%;
+  width: 18px;
+  height: 18px;
+
+  animation: scalable 1.7s linear infinite;
+}
+
+.white {
+  background-color: white;
+  border-radius: 30%;
+  width: 18px;
+  height: 18px;
+
+  animation: scalable 1.7s linear infinite;
+}
+
+.orange {
+  background-color: orange;
+  border-radius: 30%;
+  width: 18px;
+  height: 18px;
+
+  animation: scalable 1.7s linear infinite;
+}
+
+.toploader{
+  background-color: rgb(255, 238, 0);
+  height: 3px;
+  
+  position: absolute;
+  top:0;
+  left:0;
+  animation: topp 5s linear 1;
+}
+@keyframes scalable {
+  50% {
+    transform: scaleX(10.5);
+
   }
-  to {
-    transform: rotate(360deg);
+
+}
+@keyframes topp {
+  0%{
+    width:0%;
   }
+  85%{
+    width:50%;
+
+  }
+ 
+  100%{
+    width:100%;
+
+  }
+  
 }
