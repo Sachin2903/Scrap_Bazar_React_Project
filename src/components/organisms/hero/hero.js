@@ -22,7 +22,7 @@ export function Hero(){
 
     return(
         <Fragment>
-          <div className={styles.herodiv}>
+          <div id="home" className={styles.herodiv}>
 
           <h1 className={styles.slogon}>You Choose We Plan</h1>
           <h1 className={styles.animation}> DO COME & VISIT <span className={styles.city}>{changeStae}</span></h1>

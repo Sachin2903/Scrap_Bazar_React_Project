@@ -10,9 +10,9 @@ export function Nav(){
   return(
     <Fragment>
         <div className={styles.navbar}>
-           <a href=""><FaHome/></a>
+           <a href="#home"><FaHome/></a>
            <a href=""><TfiGallery/></a>
-           <a href=""><TfiLayoutSlider/></a>
+           <a href="#slider"><TfiLayoutSlider/></a>
            <a href=""><AiOutlinePhone/></a>
         </div>
 

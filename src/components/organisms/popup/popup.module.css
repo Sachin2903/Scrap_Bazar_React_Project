@@ -1,0 +1,85 @@
+.popback {
+    position: fixed;
+    top: 0;
+
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.151);
+    display: none;
+}
+
+.offer {
+    width: 350px;
+    border-radius: 20%;
+    box-shadow: 0 0 15px black;
+    text-align: left;
+    min-height: 60%;
+    background-color: white;
+}
+
+.offer:hover {
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+}
+
+.offerimg {
+    width: 100%;
+    height: 230px;
+}
+
+.head {
+    font-family: monospace;
+
+}
+
+.content {
+    padding: 10px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.headtext span {
+    color: rgb(249, 0, 133)
+}
+
+.btn2 {
+    margin-left: 20px;
+    border: 0;
+    width: 130px;
+    height: 30px;
+    font-weight: bold;
+    box-shadow: 0 0 5px black;
+}
+
+.btn1 {
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    border: 0;
+    box-shadow: 0 0 5px black;
+
+
+}
+
+.btn1:hover {
+    background-color: rgb(86, 246, 86);
+
+}
+
+.btn1:hover~.btn2 {
+    box-shadow: 0 0 10px black;
+    background-color: rgb(244, 103, 103);
+
+}
+
+.btn2:hover {
+    box-shadow: 0 0 10px black;
+    background-color: rgb(244, 103, 103);
+}

@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    animation:imagechange 25s ease-in infinite;
     
 
 }
@@ -44,14 +45,43 @@
     border: 0;
     font-family: monospace;
     box-shadow: 0 0 3px black;
+    border-radius: 15%;
 }
  .learn:hover{
     box-shadow: 0 0 7px black;
 }
 .talk:hover{
     box-shadow: 0 0 7px black;
+    background-color: aquamarine;
+    animation: vibrate 0.5s linear infinite;
 }
 .learn{
+    
     background-color: aqua;
+}
+@keyframes vibrate {
+
+25%{
+    transform: rotate(2deg);
+}
+50%{
+    transform: rotate(-2deg);
+}
+    
+}
+
+@keyframes imagechange {
+    0%{
+        background-image:linear-gradient(to right,rgba(0, 0, 0, 0.215) 100%,white), url(../../../image/heroimg.jpg);
+    }
+    
+    50%{
+        background-image:linear-gradient(to right,rgba(0, 0, 0, 0.295) 100%,white), url(../../../image/background/g.jpg);
+    }
+
+    90%{
+        background-image:linear-gradient(to right,rgba(0, 0, 0, 0.285) 100%,white), url(../../../image/background/h.jpg);
+    }
+    
 }
 
