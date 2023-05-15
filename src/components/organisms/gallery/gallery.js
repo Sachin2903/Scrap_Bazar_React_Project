@@ -13,11 +13,11 @@ import img9 from "../../../image/gallery/ii.jpg";
 import img10 from "../../../image/gallery/jj.jpg";
 import img11 from "../../../image/gallery/kk.jpg";
 import img12 from "../../../image/gallery/ll.jpg";
-import img13 from "../../../image/gallery/mm.jpg";
-import img14 from "../../../image/gallery/nn.jpg";
-import img15 from "../../../image/gallery/oo.jpg";
-
+import vedio from "../../../image/webvedio.mp4"
 export function Gallery(){
+
+
+
   return(
     <Fragment>
         <div id="gallery" className={styles.photogallery}>
@@ -30,7 +30,11 @@ export function Gallery(){
             <div className={styles.gallery2} >
             <img src={img5} className={styles.gall1img1}/>
               <img src={img6} className={styles.gall1img1}/>
-              <img src={img7} className={styles.gall1img1}/>
+              <video controls className={styles.vedio1}>
+                <source src={vedio}/>
+                    
+
+              </video>
               <img src={img8} className={styles.gall1img1}/>
             </div>
             <div className={styles.gallery3} >
