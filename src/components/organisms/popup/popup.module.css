@@ -3,18 +3,17 @@
     top: 0;
     backdrop-filter:blur(50px);
     z-index: 99999;
- 
+    display: none;
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.151);
-   display:none;
 }
 
 .offer {
     position: absolute;
-    top:50px;
-    left:40vw;
-    width: 350px;
+    top:25vh;
+    left:35vw;
+    width: 25vw;
     border-radius: 20%;
     box-shadow: 0 0 15px black;
     text-align: left;
@@ -31,10 +30,7 @@
     height: 230px;
 }
 
-.head {
-    font-family: monospace;
 
-}
 
 .content {
     padding: 10px;
@@ -42,7 +38,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 

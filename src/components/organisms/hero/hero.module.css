@@ -1,87 +1,95 @@
-.herodiv{
-    width:100%;
+.herodiv {
+    width: 100%;
     height: 100vh;
-    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.215) 100%,white), url(../../../image/heroimg.jpg);
-    background-size:100% 100% ;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.215) 100%, white), url(../../../image/heroimg.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-
     display: flex;
-    gap:1%;
+    gap: 1%;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
-    animation:imagechange 25s ease-in infinite;
-    
-
+    align-items: center;
+    animation: imagechange 25s ease-in infinite;
 }
-.city{
+
+.city {
     color: aqua;
-
 }
-.slogon,.animation,.quotes{
-    color:white;
-    text-shadow:2px 2px 1px black;
+
+.slogon,
+.animation,
+.quotes {
+    color: white;
+    text-shadow: 2px 2px 1px black;
     font-weight: bold;
     font-size: 3vw;
- 
+
 }
-.animation{
-    
+
+.animation {
+
     font-size: 4vw;
 
 }
-.quotes{
-    
+
+.quotes {
+
     font-size: 1.5vw;
 
 }
-.talk,.learn{
+
+.talk,
+.learn {
     background-color: white;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     font-weight: bold;
-    width:15vw;
-    height:8vh;
-    margin-left:20px;
+    width: 15vw;
+    height: 6vh;
+    margin-left: 20px;
     border: 0;
     font-family: monospace;
     box-shadow: 0 0 3px black;
     border-radius: 15%;
 }
- .learn:hover{
+
+.learn:hover {
     box-shadow: 0 0 7px black;
 }
-.talk:hover{
+
+.talk:hover {
     box-shadow: 0 0 7px black;
     background-color: aquamarine;
     animation: vibrate 0.5s linear infinite;
 }
-.learn{
-    
+
+.learn {
+
     background-color: aqua;
 }
+
 @keyframes vibrate {
 
-25%{
-    transform: rotate(2deg);
-}
-50%{
-    transform: rotate(-2deg);
-}
-    
+    25% {
+        transform: rotate(3deg);
+    }
+
+    50% {
+        transform: rotate(-3deg);
+    }
+
 }
 
 @keyframes imagechange {
-    0%{
-        background-image:linear-gradient(to right,rgba(0, 0, 0, 0.215) 100%,white), url(../../../image/heroimg.jpg);
-    }
-    
-    50%{
-        background-image:linear-gradient(to right,rgba(0, 0, 0, 0.295) 100%,white), url(../../../image/background/g.jpg);
+    0% {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.215) 100%, white), url(../../../image/heroimg.jpg);
     }
 
-    90%{
-        background-image:linear-gradient(to right,rgba(0, 0, 0, 0.285) 100%,white), url(../../../image/background/h.jpg);
+    50% {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.295) 100%, white), url(../../../image/background/g.jpg);
     }
-    
+
+    90% {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.285) 100%, white), url(../../../image/background/h.jpg);
+    }
+
 }
-

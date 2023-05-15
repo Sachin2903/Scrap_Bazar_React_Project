@@ -1,42 +1,44 @@
-.navbar{
+.navbar {
     position: fixed;
-    top:85vh;
-    left:38vw;
-    width:290px;
+    top: 90vh;
+    left: 39vw;
+    width: 20vw;
+    min-width: 250px;
     height: 60px;
-    border-radius: 9%;
+    border-radius: 6%;
     z-index: 999;
-  background-color: rgb(253, 231, 165);
-   box-shadow: 0 0 5px grey;
+    background-color: rgb(253, 231, 165);
+    box-shadow: 0 0 8px grey;
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
+
 }
-.navbar a{
-  
+
+.navbar a {
+
     height: 100%;
-    width:30%;
+    width: 30%;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
-.navbar a:hover{
-    border-bottom:20px solid rgba(0, 0, 0, 0);
-}
-.navbar:hover{
-   
-     box-shadow: 0 0 8px rgb(0, 0, 0);
 
 }
+
+.navbar a:hover {
+    border-bottom: 20px solid rgba(0, 0, 0, 0);
+}
+
+.navbar:hover {
+
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+
+}
+
 @media screen and (width<=520px) {
 
-    .navbar{
-        left:17vw;
+    .navbar {
+        left: 17vw;
     }
 }
-
-
-
-
