@@ -11,9 +11,9 @@ export function Nav(){
     <Fragment>
         <div className={styles.navbar}>
            <a href="#home"><FaHome/></a>
-           <a href=""><TfiGallery/></a>
-           <a href="#slider"><TfiLayoutSlider/></a>
-           <a href=""><AiOutlinePhone/></a>
+           <a href="#gallery"><TfiGallery/></a>
+           <a href="#sliders"><TfiLayoutSlider/></a>
+           <a href="mailto: email@example.com" target="_blank"><AiOutlinePhone/></a>
         </div>
 
 

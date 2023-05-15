@@ -21,7 +21,7 @@ export function Sliber(){
    return(
     <Fragment>
         <div className={styles.sliderdiv}>
-            <h1 className={styles.trend}>Trending destinations</h1>
+            <h1 id="sliders"className={styles.trend}>Trending destinations</h1>
             <h4 >Most popular choices for travellers</h4>
             <div className={styles.sliderbox}>
             {

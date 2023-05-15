@@ -28,8 +28,8 @@ export function Hero(){
           <h1 className={styles.animation}> DO COME & VISIT <span className={styles.city}>{changeStae}</span></h1>
           <h3 className={styles.quotes}>"Visit India Once Is Not Enough"</h3>
          <span>
-         <a> <button className={styles.learn}>LEARN MORE</button> </a>
-          <a><button className={styles.talk}> TALK TO US <BsFillTelephoneOutboundFill/></button></a></span>
+         <a href="#gallery"> <button className={styles.learn}>LEARN MORE</button> </a>
+          <a href="mailto: email@example.com" target="_blank"><button className={styles.talk}> TALK TO US <BsFillTelephoneOutboundFill/></button></a></span>
           </div>
 
         </Fragment>

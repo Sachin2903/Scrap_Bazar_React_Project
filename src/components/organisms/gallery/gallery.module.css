@@ -6,6 +6,7 @@
     border:5px solid black;
     display: flex;
     padding:10px;
+    gap:10px;
 }
 .gallery1,.gallery2,.gallery3{
     border:2px solid rgb(255, 0, 0);
