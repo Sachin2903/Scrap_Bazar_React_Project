@@ -26,7 +26,7 @@ export function Popup() {
         <Fragment>
             <div className={styles.popback} ref={poppop}>
                 <div className={styles.offer}>
-                    <img className={styles.offerimg} src={offerlogo} />
+                    <img alt="loading" className={styles.offerimg} src={offerlogo} />
                     <div className={styles.content}> <h4 className={styles.head}>Dear valued customer,here's 50% off coupon for you.Offer expires soon</h4>
                         <h6 className={styles.headtext}>Apply <span>TRAVEL2023</span> to enjoy this special discount</h6>
                         <span><button onClick={popclose} className={styles.btn1}>Claim my coupon</button><button onClick={popclose} className={styles.btn2}>No thanks</button></span>
