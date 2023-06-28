@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+<h1 align="center"> Scrap Bazar Project 👋</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# Scrap Bazar: (Using React)
+A Frontend Project(using React). Scrap Bazar website provides an interface that allows users to earn money in exchange of scrap at the best prices
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Deployment Site link
+Open https://scrap-bazar-by-sachin-chaturvedi.netlify.app/ in your browser to view the application
 
-### `npm test`
+## Some Glimpses
+![Screenshot (191)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/99910f74-9915-434f-a7a1-63fa6fdd3e0f)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![Screenshot (192)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/4d8f77c4-f02d-439a-a494-29a7a534ef3d)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot (193)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/ccb92287-672e-4ce2-be4d-19e49b77cb16)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot (194)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/127ee003-0ebb-43ef-b769-64a09664e9b7)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![Screenshot (195)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/6cc69a38-eb83-4563-b2d1-020a517a01d9)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot (196)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/2f0e5b0e-9c92-43fd-a9da-06ad37ac6aa3)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot (197)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/ebd5eb10-393d-4914-8aa2-d30d53c2caf7)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Designed and Developed by Sachin Chaturvedi https://github.com/Sachin2903
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+npm install
+```
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```sh
+npm run start
+```
 
-### Making a Progressive Web App
+## Run tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+npm run test
+```
 
-### Advanced Configuration
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if this project helped you!
