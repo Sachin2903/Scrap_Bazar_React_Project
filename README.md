@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+<h1 align="center">Happy Holiday</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# Happy Holiday: (Using React)
+A Frontend Project(using React). Happy Holiday is a tour and travel website that provides consultancy service and offer various holiday package across India
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Deployment Site link
+Open https://happy-holiday-you-choose-we-plan.netlify.app/ in your browser to view the application
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Some Glimpses
+<br/>
 
-### `npm test`
+![happy holiday (7)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/32f7c5a8-da34-4326-bffe-70509eb5f3c4)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![happy holiday (1)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/1d4a94b0-163c-4394-8509-d395307ebb8f)
+![happy holiday (2)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/5ef08538-ea9e-4dd1-ad82-5e612eabc646)
+![happy holiday (3)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/6a5e0865-6668-43fc-9723-50672b2c91b6)
+![happy holiday (4)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/01d90861-470d-47e5-ba78-3dc5b9219c6b)
+![happy holiday (5)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/4934a4c4-7ced-4b09-ad0f-600da694331a)
+![happy holiday (6)](https://github.com/Sachin2903/Scrap_Bazar_React_Project/assets/92660783/721b780d-0c90-4628-ac38-9d65659fdce1)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Libraries used in this project:
+1. React
+2. React Icons 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##  Designed and Developed by Sachin Chaturvedi https://github.com/Sachin2903
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm install
+```
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+npm run start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Run tests
 
-### Code Splitting
+```sh
+npm run test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if this project helped you!
